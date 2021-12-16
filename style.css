@@ -13,7 +13,7 @@ a {
 }
 
 .container {
-	min-height: 100vh;
+	min-height: 80vh;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -23,6 +23,7 @@ a {
 img {
 	height: 100%;
 	width: 100%;
+	object-fit: cover;	
 	object-fit: cover;
 }
 p {
@@ -67,7 +68,14 @@ p {
 	animation-delay: 2s;
 }
 
-
+#hero .tulsa {
+	height: 180px;
+	width: 180px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+}
 
 @keyframes text_reveal {
 	100% {
@@ -110,7 +118,7 @@ p {
 #services .service-bottom{
 
 	align-items: center;
-	justify-contect: center;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 20px;
 }
